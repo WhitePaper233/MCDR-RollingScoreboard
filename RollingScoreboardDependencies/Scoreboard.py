@@ -1,3 +1,4 @@
+# coding: utf8
 class scoreboard:
     """
     计分板类

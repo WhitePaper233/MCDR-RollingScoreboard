@@ -1,5 +1,6 @@
+# coding: utf8
 PLUGIN_METADATA = {
-    'id': 'rollingScoreboard',
+    'id': 'rollingscoreboard',
     'version': '1.1.1-Alpha1',
     'name': 'RollingScoreboard',
     'description': 'Highly customized rolling scoreboard plugin based on MCDR',
@@ -14,7 +15,7 @@ PLUGIN_METADATA = {
 def test(server):
     from RollingScoreboardDependencies import _init_
     init = _init_.initPlugin(server)
-    init.checker()
+    init.configInitializer(1)
 
 
 def on_load(server, prev):
