@@ -1,0 +1,20 @@
+# Configure file for Rolling Scoreboard plugin
+
+# =========================================
+# |            Basic Configure            |
+# =========================================
+
+# The language that Rolling Scoreboard plugin will use to display information
+# Examples: "en_us", "zh_cn"
+language: zh_cn
+
+# The filter that Rolling Scoreboard plugin will use
+# none, the plugin will not use any filter to filter
+# blacklist, the plugin will use server's blacklist to filter
+# independent_blacklist, the plugin will use a independent blacklist to filter
+# whitelist, the plugin will use server's whitelist to filter
+# independent_whitelist, the plugin will use a independent whitelist to filter
+# general_whitelist, the plugin will use WhitePaper's general whitelist plugin to filter
+# auto_filter, the plugin will use a build-in auto filter to filter
+filter: none
+
