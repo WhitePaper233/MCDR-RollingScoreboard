@@ -24,3 +24,7 @@ filter: none
 # Examples: "10", "0.1"
 default_scoreboard_interval: 10
 
+# Add "rsb." prefix in scoreboards' names to prevent scoreboard confusion
+# true, enable this setting
+# false, disable this setting
+prevent_scoreboard_confusion: true
