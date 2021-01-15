@@ -36,3 +36,66 @@ prevent_scoreboard_confusion: true
 # true, enable this setting
 # false, disable this setting
 auto_start&stop: true
+
+# Delete the echo of scoreboard instruction recorded in log file
+# Only tested on the vanilla server
+clean_log: false
+
+# ============================================
+# |           Permission Configure           |
+# ============================================
+# Set player permission in MCDR's permission.yml file
+# Available levels (top to down):
+# 0, - owner
+# 1, - admin
+# 2, - helper
+# 3, - user
+# 4, - guest
+
+# Set global command permissions
+# true, enable this setting
+# false, disable this setting
+global_permission: false
+global_permission_level: 2
+
+# Command to show the control panel of the plugin
+pannel_permission_level: 2
+
+# Help command
+help_permission_level: 2
+
+# List all loaded scoreboards
+list_permission_level: 2
+
+# Reload all scoreboards
+reload_permission_level: 2
+
+# Unload all scoreboards
+unload_permission_level: 2
+
+# Start to roll scoreboards
+start_permission_level: 2
+
+# Stop rolling scoreboards
+stop_permission_level: 2
+
+# Add new scoreboard
+add_permission_level: 2
+
+# Delete scoreboard
+del_permission_level: 2
+
+# =========================================
+# |           Advance Configure           |
+# =========================================
+# enable console debug output
+# true, enable this setting
+# false, disable this setting
+debug_mode: false
+
+# =========================================
+# |           Missing Configure           |
+# =========================================
+
+# Options below were missing and set by RollingScoreboard plugin with default value
+# Remember to check and update the them as soon as possible
