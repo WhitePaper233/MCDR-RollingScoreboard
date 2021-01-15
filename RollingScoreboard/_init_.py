@@ -10,3 +10,8 @@ RollingScoreboard Plugin provides a large number of operations on the game score
 This project is open source on GitHub and Gitee, and complies with gpl-3.0 protocol. I accept all constructive PRs and
 issues.
 """
+
+
+class initPlugin:
+    def __init__(self):
+        pass
