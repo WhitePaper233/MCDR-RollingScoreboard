@@ -18,3 +18,9 @@ language: zh_cn
 # auto_filter, the plugin will use a build-in auto filter to filter
 filter: none
 
+# Set default scoreboard interval
+# This setting is used if the scoreboard is not individually assigned a dwell time
+# Unit: seconds
+# Examples: "10", "0.1"
+default_scoreboard_interval: 10
+
