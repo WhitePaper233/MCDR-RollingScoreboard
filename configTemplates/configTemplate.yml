@@ -28,3 +28,11 @@ default_scoreboard_interval: 10
 # true, enable this setting
 # false, disable this setting
 prevent_scoreboard_confusion: true
+
+# Automatic Start & Stop
+# When there is someone in the server, it will start to scroll the list automatically, otherwise it will stop
+# Note: to judge whether there is a real player on the server, you need to use a filter. If there is no filter, BOT may
+#       be judged as a real player
+# true, enable this setting
+# false, disable this setting
+auto_start&stop: true
