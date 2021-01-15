@@ -7,7 +7,7 @@ RollingScoreboard Plugin provides a large number of operations on the game score
     4.Automatic start & stop rolling
     5.Automatic clean server log file
     etc
-This project is open source on GitHub and Gitee, and complies with gpl-3.0 protocol. I accept all constructive PRs and
+This project is open source on GitHub and Gitee, and complies with GPL-3.0 LICENSE. I accept all constructive PRs and
 issues.
 """
 
