@@ -12,6 +12,12 @@ issues.
 """
 
 
-class initPlugin:
-    def __init__(self):
-        pass
+class initPlugin():
+    def __init__(self, server):
+        from os import getcwd
+        self.getcwd = getcwd()
+        self.server = server
+
+    def checker(self):
+        path = self.getcwd
+        self.server.logger.info(path)
