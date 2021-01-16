@@ -4,3 +4,4 @@
 
  Highly customized rolling scoreboard plugin based on MCDR
 
+# !!!This plugin is not finished!!!
